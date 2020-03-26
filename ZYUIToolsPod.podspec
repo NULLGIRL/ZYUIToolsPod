@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'CoreText', 'Foundation'
-   s.dependency 'SVProgressHUD'
+   s.dependency 'SVProgressHUD','2.2.5'
 end

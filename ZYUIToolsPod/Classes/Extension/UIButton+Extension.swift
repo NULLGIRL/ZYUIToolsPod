@@ -18,7 +18,7 @@ public enum YWButtonEdgeInsetsStyle {
 
 public extension UIButton {
     
-    public func layoutButton(style: YWButtonEdgeInsetsStyle, imageTitleSpace: CGFloat) {
+    func layoutButton(style: YWButtonEdgeInsetsStyle, imageTitleSpace: CGFloat) {
         //得到imageView和titleLabel的宽高
         let imageWidth = self.imageView?.frame.size.width
         let imageHeight = self.imageView?.frame.size.height

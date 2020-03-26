@@ -1,7 +1,7 @@
 PODS:
   - SVProgressHUD (2.2.5)
   - ZYUIToolsPod (0.1.0):
-    - SVProgressHUD
+    - SVProgressHUD (= 2.2.5)
 
 DEPENDENCIES:
   - ZYUIToolsPod (from `../`)
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  ZYUIToolsPod: c1f6238a9b794f36235001909688310c0578f16f
+  ZYUIToolsPod: 7b95fe0b58bbb2bd5587b6178f695ec1eed5eaf6
 
 PODFILE CHECKSUM: 4503e27d983c6843a49c24fc3a469bcb3126616b
 

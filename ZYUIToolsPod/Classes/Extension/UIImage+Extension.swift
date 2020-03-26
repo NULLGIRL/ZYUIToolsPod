@@ -11,7 +11,7 @@ import UIKit
 
 public extension UIImage {
     
-    public convenience init?(color: UIColor, size: CGSize = CGSize(width: 1.0, height: 1.0))  {
+    convenience init?(color: UIColor, size: CGSize = CGSize(width: 1.0, height: 1.0))  {
         UIGraphicsBeginImageContextWithOptions(size, true, UIScreen.main.scale)
         defer {
             UIGraphicsEndImageContext()

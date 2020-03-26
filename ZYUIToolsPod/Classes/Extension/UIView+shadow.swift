@@ -24,7 +24,6 @@ public extension UIView {
         self.layer.cornerRadius = radius
         self.layer.masksToBounds = true
         let subLayer = CALayer()
-        let fixframe = self.frame
         subLayer.frame = self.frame
         subLayer.cornerRadius = radius
         subLayer.backgroundColor = UIColor.white.cgColor

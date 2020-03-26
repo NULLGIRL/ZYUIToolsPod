@@ -24,11 +24,11 @@ public extension String {
         
     }
     
-    public func getNormalStrH(strFont: CGFloat, w: CGFloat = CGFloat.greatestFiniteMagnitude) -> CGFloat {
+    func getNormalStrH(strFont: CGFloat, w: CGFloat = CGFloat.greatestFiniteMagnitude) -> CGFloat {
         return getNormalStrSize(str: self, font: strFont, w: w, h: CGFloat.greatestFiniteMagnitude).height
     }
     
-    public func getNormalStrW(strFont: CGFloat, h: CGFloat = CGFloat.greatestFiniteMagnitude) -> CGFloat {
+    func getNormalStrW(strFont: CGFloat, h: CGFloat = CGFloat.greatestFiniteMagnitude) -> CGFloat {
         return getNormalStrSize(str: self, font: strFont, w: CGFloat.greatestFiniteMagnitude , h: h).width
     }
 }
@@ -60,17 +60,17 @@ public extension String {
     }
     
     
-    public func tk_tidyMnemonic() -> String {
+    func tk_tidyMnemonic() -> String {
         return self.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
             .trimmingCharacters(in: .whitespaces)
     }
     ///字符串转浮点型
-    public func convertToDecimalNumber() -> NSDecimalNumber {
+    func convertToDecimalNumber() -> NSDecimalNumber {
         /// NSDecimalNumber会把多余的零去掉
         return NSDecimalNumber.init(string: String.init(format: "%.4f", (self as NSString).floatValue))
     }
     
-    public func decimalCount() -> Int {
+    func decimalCount() -> Int {
         let tempString = "\(self)"
         if tempString.contains(".") {
             return tempString.split(separator: ".")[1].count
@@ -108,7 +108,7 @@ public extension String {
     
     
     /// 字符长度
-    public static func numberOfChars(_ str: String) -> Int {
+    static func numberOfChars(_ str: String) -> Int {
         var number = 0
         
         guard str.count > 0 else {return 0}
@@ -126,7 +126,7 @@ public extension String {
     }
     
     /// utf8
-    public static func UTF8_numberOfChars(_ str: String) -> Int {
+    static func UTF8_numberOfChars(_ str: String) -> Int {
         guard let utf8Data = str.data(using: .utf8), utf8Data.count > 0 else {
             return 0
         }
@@ -143,7 +143,7 @@ public extension String {
     }
     
     //使用正则表达式替换
-    public func pregReplace(pattern: String, with: String,
+    func pregReplace(pattern: String, with: String,
                      options: NSRegularExpression.Options = []) -> String {
         let regex = try! NSRegularExpression(pattern: pattern, options: options)
         return regex.stringByReplacingMatches(in: self, options: [],

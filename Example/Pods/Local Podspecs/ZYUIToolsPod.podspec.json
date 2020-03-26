@@ -1,7 +1,7 @@
 {
   "name": "ZYUIToolsPod",
   "version": "0.1.0",
-  "summary": "A short description of ZYUIToolsPod.",
+  "summary": "Some UI Methods",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/NULLGIRL/ZYUIToolsPod",
   "license": {
@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "SVProgressHUD": [
-
+      "2.2.5"
     ]
   },
   "swift_version": "4.2"

@@ -11,7 +11,7 @@ import SVProgressHUD
 
 public extension SVProgressHUD {
     /// 设置 SVProgressHUD 属性
-    public static func configuration() {
+    static func configuration() {
         SVProgressHUD.setForegroundColor(.white)
         SVProgressHUD.setMinimumDismissTimeInterval(1)
         SVProgressHUD.setMaximumDismissTimeInterval(1.5)

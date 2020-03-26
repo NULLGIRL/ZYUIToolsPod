@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYUIToolsPod_Example' do
+  pod 'ZYUIToolsPod', :path => '../'
+
+  target 'ZYUIToolsPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module ZYUIToolsPod {
+  umbrella header "ZYUIToolsPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

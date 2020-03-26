@@ -7,7 +7,7 @@ DEPENDENCIES:
   - ZYUIToolsPod (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - SVProgressHUD
 
 EXTERNAL SOURCES:
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   ZYUIToolsPod: 7b95fe0b58bbb2bd5587b6178f695ec1eed5eaf6
 
-PODFILE CHECKSUM: 4503e27d983c6843a49c24fc3a469bcb3126616b
+PODFILE CHECKSUM: 7e248b10d1a9005e137aec3c11e39ac41f1e5035
 
 COCOAPODS: 1.8.4

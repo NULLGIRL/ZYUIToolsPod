@@ -22,7 +22,7 @@ pod 'ZYUIToolsPod'
 
 ## Author
 
-NULLGIRL, 422453403@qq.com
+zhuangyuan, 422453403@qq.com
 
 ## License
 

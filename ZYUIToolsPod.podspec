@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYUIToolsPod'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Some UI Methods'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Some encapsulated UI extension methods, and the usual String methods。
                        DESC
 
   s.homepage         = 'https://github.com/NULLGIRL/ZYUIToolsPod'
@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/NULLGIRL/ZYUIToolsPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ZYUIToolsPod/Classes/**/*'
+  s.source_files = 'ZYUIToolsPod/Classes/**/*.swift'
   s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'ZYUIToolsPod' => ['ZYUIToolsPod/Assets/*.png']
